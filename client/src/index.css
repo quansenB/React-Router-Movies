@@ -70,3 +70,22 @@ body {
   padding: 5px 10px;
   background-color: lightskyblue;
 }
+
+.inactive{
+  background-color: grey;
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  border: 1px solid grey;
+  padding: 5px 10px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.activeNav{
+  color: green;
+  font-weight: bold;
+}
