@@ -79,3 +79,13 @@ body {
   border: 1px solid grey;
   padding: 5px 10px;
 }
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.activeNav{
+  color: green;
+  font-weight: bold;
+}

@@ -18,9 +18,9 @@ export default class App extends Component {
     this.setState({ savedList });
   };
 
-  isSaved(movie){
+ /*  isSaved(movie){
     return 0 >= this.state.savedList.find( () => )
-  }
+  } */
 
   render() {
     return (
