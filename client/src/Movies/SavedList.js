@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import MovieList from "./MovieList";
 
 export default class SavedList extends Component {
@@ -7,13 +7,16 @@ export default class SavedList extends Component {
     super(props);
   }
 
+
   render() {
+    console.log(this.props.list);
     return (
       <div className="saved-list">
         <h3>Saved Movies:</h3>
+        
         {this.props.list.map(movie => (
           <Link to={`/movies/${movie.id}`}>
-          <span className="saved-movie">{movie.title}</span>
+            <span className="saved-movie">{movie.title}</span>
           </Link>
         ))}
         <Link to="/">
